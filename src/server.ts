@@ -19,9 +19,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
  
-app.use ('/user',userRoutes);
-app.use ('/category', categoryRoutes)
-app.use ('/task', taskRoutes)
+app.use ('/users',userRoutes);
+app.use ('/categories', categoryRoutes)
+app.use ('/tasks', taskRoutes)
+
 app.listen(Port, () => {
     console.log(`Server started at http://localhost:${Port}`)
 });
