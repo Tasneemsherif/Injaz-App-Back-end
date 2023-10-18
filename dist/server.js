@@ -17,9 +17,9 @@ var Port = 1337;
 app.get('/', function (req, res) {
     res.send('Hello World!');
 });
-app.use('/user', user_routes_1.default);
-app.use('/category', category_routes_1.default);
-app.use('/task', task_routes_1.default);
+app.use('/users', user_routes_1.default);
+app.use('/categories', category_routes_1.default);
+app.use('/tasks', task_routes_1.default);
 app.listen(Port, function () {
     console.log("Server started at http://localhost:".concat(Port));
 });
