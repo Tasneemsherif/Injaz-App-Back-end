@@ -22,7 +22,7 @@ The To-Do List API is a robust backend for managing tasks and categories in a To
 ## Features
 
 - **User Management**:
-  - User registration
+  - User Registration
   - User login
   - Account management
 
@@ -82,10 +82,18 @@ Configure environment variables and create a .env file with the necessary settin
 
 
 ## API Endpoints
-Document the available API endpoints, including their routes, HTTP methods, and request/response formats. You can use tools like Swagger for detailed API documentation.
+there is an end point for users, tasks, categories
+this is an example for creating a user, using "users/create"
+![Alt Text](CreateUser.png)
 
 ## Postman Testing
-Ensure the API's functionality with Postman tests. Include instructions on how to run the tests and validate the API's reliability.
+you can test all the functionalty of the api using all end-points determined in the route file 
+here is some examples of the test:
+### log-in test:
+![Alt Text](Login.png)
+### Create Category test:
+![Alt Text](CreateCategory.png)
+
 
 
 
